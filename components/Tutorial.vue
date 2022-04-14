@@ -6,7 +6,7 @@
       <div class="waviy d-flex" style="min-width: max-content; margin-bottom: 80px;">
         <span v-for="(letter, idx) in arrayText" class="d-block" :style="`--i:${idx + 1}; ${letter !== ' ' ? '' : 'width: 20px;'}`">{{letter}}</span>
       </div>
-      <img class="m-auto" src="~/assets/img/zojaGay.jpg" alt="zoja gay" style="width: 500px">
+<!--      <img class="m-auto" src="~/assets/img/zojaGay.jpg" alt="zoja gay" style="width: 500px">-->
     </div>
     <img src="~/assets/img/gaaaay.gif" alt="flag" style="transform: scaleX(-1); width: 700px;">
   </div>
